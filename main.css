@@ -29,14 +29,16 @@ button{
   flex: 0 0 25%;
   border: 0.5px solid black;
   padding: 0.25rem 0;
-  transition: all 0.25s ease;
+  transition: all 0.125s ease;
 }
 button:hover{
-  
+  font-weight: bold;
 }
 button:active{
   background: rgb(212, 40, 40);
-
+}
+.button-empty:active{
+  background: rgb(224, 224, 224);
 }
 .button-yellow{
   background: rgb(252, 186, 3);
